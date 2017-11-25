@@ -239,7 +239,7 @@ a:hover, a:focus {
     min-height: 60px;
     padding-top: 8px;
     position: fixed;
-    top: -60px;
+    top: -90px;
     transition: top 0.4s ease 0s;
 }
 
@@ -273,7 +273,20 @@ a:hover, a:focus {
 }
 
 .logo img {
-	margin-top: 6px;
+  margin-bottom: 15px;
+  margin-top: 6px;
+  width: 200px;
+  /* height: 50px; */
+}
+
+.navbar-about {
+  border: 0px solid rgba(0, 0, 0, 0);
+  background: #70cbce;
+  margin: auto;
+  min-height: 60px;
+  padding-top: 8px;
+  position: fixed;
+  transition: top 0.4s ease 0s;
 }
 
 
@@ -282,7 +295,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/header-bg.jpg) no-repeat center center;
+  background: url(../img/mountain-range.jpg) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -370,7 +383,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/be-the-first-bg.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/berm2.jpg) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -467,7 +480,7 @@ footer {
 }
 
 .pricing-table {
-  background: transparent;
+  background-color: #fff;  
   margin-bottom: 50px;
   margin-top: 0px;
   -webkit-transition: all 0.25s ease-in-out;
@@ -514,6 +527,11 @@ footer {
     padding-top: 20px;
 }
 
+.priceImage {
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 50%;
+}
 
 .pricing-table:hover li.price  {
   background: #303236;
@@ -670,6 +688,28 @@ footer {
 }   
 
 
+/* ==========================================================================
+   Custom styles
+   ========================================================================== */
+/*  */
 
+.aboutUs-image {
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
 
+.aboutHeading,
+.aboutSubheading {
+  color: #2e2e2e;
+  text-align: center;
+}
 
+div#product-component-825a729b6ef {
+  display: inline;
+}
+
+div#product-component-b1cd248c9fb {
+  display: inline;
+}
