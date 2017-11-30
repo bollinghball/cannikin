@@ -295,7 +295,7 @@ a:hover, a:focus {
    Main styles
    ========================================================================== */
 header {
-  background: url(../img/mountain-range.jpg) no-repeat center center;
+  background: url(../img/mtnbeer.png) no-repeat center center;
   width: 100%;
   padding: 20px 10px 60px 10px;
   height: 100vh;
@@ -383,7 +383,7 @@ header {
 
 
 #be-the-first {
-  background: url(../img/berm2.jpg) #231f20 no-repeat center center fixed;
+  background: url(../img/grass.png) #231f20 no-repeat center center fixed;
   min-height: 300px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -712,4 +712,27 @@ div#product-component-825a729b6ef {
 
 div#product-component-b1cd248c9fb {
   display: inline;
+}
+
+#mc_embed_signup .button {
+  background-color: #73CBCD !important;
+  height: initial !important;
+  line-height: initial !important;
+  margin: 0 auto !important;
+  padding: 2rem !important;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #8be2e5 !important;
+}
+
+#mc_embed_signup input.email {
+  border: 0px solid transparent !important;
+  border-radius: 4px !important;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset !important;
+  color: #929496 !important;
+  height: 60px !important;
+  margin: 0 auto !important;
+  margin-bottom: 2rem !important;
+  width: 100% !important;
 }
